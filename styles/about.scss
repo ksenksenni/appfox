@@ -1,0 +1,50 @@
+.about-wrap {
+    background-image: url(../img/bg-about.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__text {
+    margin-top: 178px;
+    max-width: 540px;
+}
+
+.about__title {
+    margin-bottom: 20px;
+}
+
+.about__title::after {
+    left: 306px;
+    background-image: url(../img/📱.svg);
+}
+
+.about__desc {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.about-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #ffffff;
+}
+
+.about-number {
+    font-family: "Roboto-Medium", sans-serif;
+    font-size: 37px;
+    line-height: 43px;
+}
+
+.about-text {
+    line-height: 21px;
+    margin: 0;
+}
