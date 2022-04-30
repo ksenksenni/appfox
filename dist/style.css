@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Roboto";
   src: url("/fonts/Roboto-Regular.ttf");
@@ -54,6 +55,29 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.orange {
+  color: #FF9C01;
+}
+
+.title-after {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 50px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.title-after::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  top: 8px;
 }
 
 .container {
@@ -231,4 +255,27 @@ body {
 
 .download__text {
   margin-top: 100px;
+  max-width: 628px;
+}
+
+.download__title {
+  margin-bottom: 25px;
+}
+
+.download__title::after {
+  left: 306px;
+  background-image: url(../img/🚀.svg);
+}
+
+.download__desc {
+  margin-top: 0;
+  margin-bottom: 73px;
+}
+
+.download__links {
+  display: flex;
+}
+
+.download__link {
+  margin-right: 23px;
 }

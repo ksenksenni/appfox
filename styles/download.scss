@@ -5,4 +5,27 @@
 
 .download__text {
     margin-top: 100px;
+    max-width: 628px;
+}
+
+.download__title {
+    margin-bottom: 25px;
+}
+
+.download__title::after {
+    left: 306px;
+    background-image: url(../img/🚀.svg);
+}
+
+.download__desc {
+    margin-top: 0;
+    margin-bottom: 73px;
+}
+
+.download__links {
+    display: flex;
+}
+
+.download__link {
+    margin-right: 23px;
 }
