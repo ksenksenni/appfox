@@ -1,0 +1,25 @@
+.geo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 61px;
+    padding: 0;
+}
+
+.geo__text {
+    margin-top: 78px;
+    max-width: 445px;
+}
+
+.geo__title {
+    margin-bottom: 30px;
+}
+
+// .download__title::after {
+//     left: 306px;
+//     background-image: url(../img/🚀.svg);
+// }
+.geo__desc {
+    margin-top: 0;
+    margin-bottom: 0;
+}

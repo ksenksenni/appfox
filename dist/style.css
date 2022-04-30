@@ -73,8 +73,8 @@ body {
   position: relative;
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
-  font-size: 42px;
-  line-height: 50px;
+  font-size: 32px;
+  line-height: 38px;
   text-transform: uppercase;
 }
 
@@ -268,6 +268,8 @@ body {
 
 .download__title {
   margin-bottom: 25px;
+  font-size: 42px;
+  line-height: 50px;
 }
 
 .download__title::after {
@@ -298,6 +300,7 @@ body {
 .about {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 .about__text {
@@ -310,8 +313,7 @@ body {
 }
 
 .about__title::after {
-  left: 306px;
-  background-image: url(../img/📱.svg);
+  left: 402px;
 }
 
 .about__desc {
@@ -337,4 +339,110 @@ body {
 .about-text {
   line-height: 21px;
   margin: 0;
+}
+
+.geo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 61px;
+  padding: 0;
+}
+
+.geo__text {
+  margin-top: 78px;
+  max-width: 445px;
+}
+
+.geo__title {
+  margin-bottom: 30px;
+}
+
+.geo__desc {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.delivery-wrap {
+  background-image: url(../img/bg-delivery.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.delivery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delivery-img {
+  margin-top: -20px;
+}
+
+.delivery__text {
+  margin-top: 140px;
+  max-width: 500px;
+}
+
+.delivery__title {
+  margin-bottom: 30px;
+}
+
+.delivery__title::after {
+  left: 402px;
+}
+
+.delivery__desc {
+  margin-top: 0;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.faq {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.faq__text {
+  margin-top: 178px;
+  max-width: 540px;
+}
+
+.faq__title {
+  margin-bottom: 20px;
+}
+
+.faq__title::after {
+  left: 402px;
+}
+
+.faq__list {
+  width: 100%;
+  padding-left: 0;
+  list-style: none;
+}
+
+.faq__list-caption {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: none;
+  padding: 5px 5px 5px 10px;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  color: #4E5C66;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.faq__list-desc {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 24px;
 }

@@ -1,0 +1,36 @@
+.delivery-wrap {
+    background-image: url(../img/bg-delivery.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-img {
+    margin-top: -20px;
+}
+
+.delivery__text {
+    margin-top: 140px;
+    max-width: 500px;
+}
+
+.delivery__title {
+    margin-bottom: 30px;
+}
+
+.delivery__title::after {
+    left: 402px;
+    // background-image: url(../img/📱.svg);
+}
+
+.delivery__desc {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+}

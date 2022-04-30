@@ -8,6 +8,7 @@
 .about {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .about__text {
@@ -20,8 +21,8 @@
 }
 
 .about__title::after {
-    left: 306px;
-    background-image: url(../img/📱.svg);
+    left: 402px;
+    // background-image: url(../img/📱.svg);
 }
 
 .about__desc {
