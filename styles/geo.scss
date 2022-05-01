@@ -15,10 +15,12 @@
     margin-bottom: 30px;
 }
 
-// .download__title::after {
-//     left: 306px;
-//     background-image: url(../img/🚀.svg);
-// }
+.geo__title::after {
+    bottom: 5px;
+    left: 325px;
+    background-image: url(../img/🌏.svg);
+}
+
 .geo__desc {
     margin-top: 0;
     margin-bottom: 0;
